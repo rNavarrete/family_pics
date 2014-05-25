@@ -1,3 +1,6 @@
 Family Pics
 
 A web app for my family to share pictures.
+
+
+by Edgard Navarrete
