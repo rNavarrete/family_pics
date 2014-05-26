@@ -1,2 +1,15 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<% if user_signed_in? %>
+  <div class="jumbotron">
+
+		<h1>Welcome to Flor Blanca Pictures</h1>
+			<p>Any new pictures of the family? Share here :)</p>
+	</div>
+<% else %>	
+
+	<div class="jumbotron">
+
+		<h1>Flor Blanca Pictures</h1>
+		<p>Join now to download and share our family pictures.</p>
+	  <p><%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
+	</div>
+<% end %>	
