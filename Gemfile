@@ -45,6 +45,8 @@ gem 'simple_form', '~> 3.1.0.rc1'
 gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem 'rails_12factor', group: :production
 gem 'aws-sdk'
+gem 'will_paginate', '~> 3.0.5'
+gem 'bootstrap-will_paginate', '~> 0.0.10'
 
 
 
