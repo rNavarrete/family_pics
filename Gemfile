@@ -47,6 +47,8 @@ gem 'rails_12factor', group: :production
 gem 'aws-sdk'
 gem 'will_paginate', '~> 3.0.5'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
+gem "jquery-turbolinks", "~> 2.0.1"
+gem 'masonry-rails'
 
 
 

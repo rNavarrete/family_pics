@@ -39,6 +39,8 @@
     <p><%= link_to "Sign Up Now", new_user_registration_path, class: "btn btn-primary btn-md" %></p>
   </div>
 <% end %> 
-<div id="pins">
+<div id="pins" data-no-turbolink>
   <%= render @pins %>
 </div>  
+
+<%= will_paginate @pins %>
