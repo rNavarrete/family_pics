@@ -10,12 +10,12 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require imagesloaded.pkgd.js
 //= require jquery
 //= require jquery.turbolinks
 //= require jquery_ujs
+//= require masonry.pkgd.js
+//= require imagesloaded.pkgd.js
 //= require imagesloaded.pkgd.min.js
 //= require bootstrap
-//= require masonry.pkgd.js
 //= require turbolinks
 //= require_tree .
