@@ -2,5 +2,6 @@ Family Pics
 
 A web app for my family to share pictures.
 
+Focus: Masonry for responsive image display, twitter bootstrap for navbar and thumbnail design, devise for authentication, Amazon S3 w/paperclip for image uploads, and heroku deployment.
 
-by Edgard Navarrete
+Production site: https://florblanca.herokuapp.com/
